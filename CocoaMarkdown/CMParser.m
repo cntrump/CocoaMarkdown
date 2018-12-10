@@ -78,7 +78,7 @@
     [[_document.rootNode iterator] enumerateUsingBlock:^(CMNode *node, CMEventType event, BOOL *stop) {
         self.currentNode = node;
         [self handleNode:node event:event];
-        if (_parsing == 0) *stop = YES;
+        if (self->_parsing == 0) *stop = YES;
     }];
     
     _parsing = 0;

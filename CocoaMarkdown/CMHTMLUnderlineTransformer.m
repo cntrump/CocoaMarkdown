@@ -7,7 +7,7 @@
 //
 
 #import "CMHTMLUnderlineTransformer.h"
-#import "Ono.h"
+#import "ONOXMLDocument.h"
 
 @implementation CMHTMLUnderlineTransformer {
     CMUnderlineStyle _style;
